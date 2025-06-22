@@ -3,6 +3,7 @@ MyShell User Manual
 ====================
 
 Welcome to MyShell - a simple command line shell.
+
 " We present "MyShell", a simple yet powerful command-line shell developed as part of the requirements for the Operating Systems course. This project aims to implement fundamental operating system concepts such as process management, I/O redirection, and environment variable management, providing an interactive "
 
 ---
@@ -20,8 +21,6 @@ Hanin Ostaz
 Raghad Altalaa
 
 •
-Supervised and guided by:
-
 Teaching Assistant : Eng. Amal Mahfouz
 
 ---
