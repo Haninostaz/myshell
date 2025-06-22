@@ -1,4 +1,4 @@
-#MyShell User Manual
+# MyShell User Manual
 
 ====================
 
@@ -28,48 +28,48 @@ Teaching Assistant : Eng. Amal Mahfouz
 How to run MyShell:
 
 1. Compile the shell program using:
-   ``gcc myshell.c -o myshell
+   ```gcc myshell.c -o myshell
 
 2. Run the shell by typing:
-   ``./myshell
+   ```./myshell
 
 3. To run commands from a batch file, type:
-   ``./myshell batchfile
+   ```./myshell batchfile
 
 ---
 
 Supported Internal Commands:
 
-- ``cd [directory]
+- ```cd``` [directory] :
   
   Change the current directory to the specified directory.
   If no directory is given, it shows the current directory.
 
-- ``clr
+- ```clr```
   
   Clear the screen.
 
-- ``dir [directory]
+- ```dir``` [directory]
   
   List the contents of the specified directory.
 
-- ```environ
+- ```environ```
   
   Display all environment variables.
 
-- ``echo [text]
+- ```echo``` [text]
   
   Display the given text.
 
-- ``help
+- ```help```
   
   Display this user manual.
 
-- ``pause
+- ```pause```
   
   Pause the shell until Enter is pressed.
 
-- ``quit
+- ```quit```
   
   Exit the shell.
 
@@ -78,18 +78,18 @@ Supported Internal Commands:
 Advanced Features:
 
 - Input and Output Redirection:
-  Use '<' to redirect input from a file.
-  Use '>' to redirect output to a file (overwrite).
-  Use '>>' to append output to a file.
+  Use ``<`` to redirect input from a file.
+  Use ``>``to redirect output to a file (overwrite).
+  Use ``>>``to append output to a file.
   
 
   Example:
-  ls > output.txt
-  sort < input.txt > sorted.txt
+ `` ls > output.txt
+  sort < input.txt > sorted.txt``
   
 
 - Background Execution:
-  Add '&' at the end of a command to run it in the background.
+  Add `&` at the end of a command to run it in the background.
 
   Example:
   sleep 10 &
@@ -121,7 +121,7 @@ We believe MyShell has great potential for future development. Some ideas that c
 
 - Tab Completion: Automatically completing filenames and commands when the Tab key is pressed.
   
-- Piping: Supporting the redirection of one command's output as input to another command (e.g., ls | grep .txt).
+- Piping: Supporting the redirection of one command's output as input to another command (`e.g., ls | grep .txt`).
   
 - Custom Environment Variable Support: Allowing users to set new environment variables within the shell.
 
