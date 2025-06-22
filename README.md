@@ -1,4 +1,4 @@
-# MyShell User Manual
+# MyShell User Manual ✅
 
 ====================
 
@@ -8,7 +8,7 @@ Welcome to **MyShell** - a simple command line shell.
 
 ---
 
-**Team Members** : 
+👩‍💻 **Team Members** : 
 
 
 •
@@ -21,24 +21,24 @@ Hanin Ostaz
 Raghad Altalaa
 
 •
-Teaching Assistant : Eng. Amal Mahfouz
+👩‍🏫 Teaching Assistant : *Eng. Amal Mahfouz*
 
 ---
 
-How to run MyShell:
+🖥 **How to run MyShell:**
 
 1. Compile the shell program using:
-   ```gcc myshell.c -o myshell
+   ```gcc myshell.c -o myshell```
 
 2. Run the shell by typing:
-   ```./myshell
+   ```./myshell```
 
 3. To run commands from a batch file, type:
-   ```./myshell batchfile
+   ```./myshell batchfile```
 
 ---
 
-Supported Internal Commands:
+📚 **Supported Internal Commands:**
 
 - ```cd``` [directory] :
   
@@ -75,7 +75,7 @@ Supported Internal Commands:
 
 ---
 
-Advanced Features:
+✨ **Advanced Features:**
 
 - Input and Output Redirection:
   Use ``<`` to redirect input from a file.
@@ -104,7 +104,7 @@ Advanced Features:
 
 ---
 
-Notes:
+📌 **Notes:**
 
 - The 'help' command displays this manual.
 - Make sure your batch files contain one command per line.
@@ -113,7 +113,7 @@ Notes:
 - The parent process environment variable 'parent' contains the path to myshell.
 
 ---
-Suggested Future Enhancements
+**Suggested Future Enhancements**
 
 We believe MyShell has great potential for future development. Some ideas that can be explored include :
 
@@ -125,10 +125,10 @@ We believe MyShell has great potential for future development. Some ideas that c
   
 - Custom Environment Variable Support: Allowing users to set new environment variables within the shell.
 
-- Job Control: Providing commands to manage background processes (e.g., jobs, fg, bg
+- Job Control: Providing commands to manage background processes (``e.g., jobs, fg, bg`)
 
 ---
 
 Thank you for using MyShell!
 
-For questions or help, contact: your_email@example.com
+ 📨 For questions or help, contact: your_email@example.com
