@@ -1,15 +1,15 @@
-MyShell User Manual
+#MyShell User Manual
 
 ====================
 
-Welcome to MyShell - a simple command line shell.
+Welcome to **MyShell** - a simple command line shell.
 
 " We present "MyShell", a simple yet powerful command-line shell developed as part of the requirements for the Operating Systems course. This project aims to implement fundamental operating system concepts such as process management, I/O redirection, and environment variable management, providing an interactive "
 
 ---
-Team Members
 
-This project is the result of a collaborative effort by:
+**Team Members** : 
+
 
 •
 Nedaa Khater
@@ -28,48 +28,48 @@ Teaching Assistant : Eng. Amal Mahfouz
 How to run MyShell:
 
 1. Compile the shell program using:
-   gcc myshell.c -o myshell
+   ``gcc myshell.c -o myshell
 
 2. Run the shell by typing:
-   ./myshell
+   ``./myshell
 
 3. To run commands from a batch file, type:
-   ./myshell batchfile
+   ``./myshell batchfile
 
 ---
 
 Supported Internal Commands:
 
-- cd [directory]
+- ``cd [directory]
   
   Change the current directory to the specified directory.
   If no directory is given, it shows the current directory.
 
-- clr
+- ``clr
   
   Clear the screen.
 
-- dir [directory]
+- ``dir [directory]
   
   List the contents of the specified directory.
 
-- environ
+- ```environ
   
   Display all environment variables.
 
-- echo [text]
+- ``echo [text]
   
   Display the given text.
 
-- help
+- ``help
   
   Display this user manual.
 
-- pause
+- ``pause
   
   Pause the shell until Enter is pressed.
 
-- quit
+- ``quit
   
   Exit the shell.
 
