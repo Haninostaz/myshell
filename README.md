@@ -5,6 +5,23 @@ MyShell User Manual
 Welcome to MyShell - a simple command line shell.
 
 ---
+Team Members
+
+This project is the result of a collaborative effort by:
+
+•
+Nedaa Khater
+
+•
+Hanin Ostaz
+•
+Raghad Altalaa
+•
+Supervised and guided by:
+
+Teaching Assistant : Eng. Amal Mahfouz
+
+---
 
 How to run MyShell:
 
@@ -48,7 +65,7 @@ Supported Internal Commands:
 
 ---
 
-Features:
+Advanced Features:
 
 - Input and Output Redirection:
   Use '<' to redirect input from a file.
@@ -64,8 +81,11 @@ Features:
 
   Example:
   sleep 10 &
+  
+- Batch File Execution :
+    MyShell can read and execute commands from a text file, line by line.
 
-- Command Prompt:
+- Dynamic Command Prompt:
   Shows the current directory path.
 
 ---
@@ -77,6 +97,21 @@ Notes:
 - If an error occurs, the shell will display an error message.
 - The shell environment variable 'shell' contains the full path to myshell.
 - The parent process environment variable 'parent' contains the path to myshell.
+
+---
+Suggested Future Enhancements
+
+We believe MyShell has great potential for future development. Some ideas that can be explored include :
+
+- Command History: Saving previous commands and allowing the user to navigate through them using arrow keys.
+
+- Tab Completion: Automatically completing filenames and commands when the Tab key is pressed.
+  
+- Piping: Supporting the redirection of one command's output as input to another command (e.g., ls | grep .txt).
+  
+- Custom Environment Variable Support: Allowing users to set new environment variables within the shell.
+
+- Job Control: Providing commands to manage background processes (e.g., jobs, fg, bg
 
 ---
 
