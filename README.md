@@ -41,28 +41,36 @@ How to run MyShell:
 Supported Internal Commands:
 
 - cd [directory]
+  
   Change the current directory to the specified directory.
   If no directory is given, it shows the current directory.
 
 - clr
+  
   Clear the screen.
 
 - dir [directory]
+  
   List the contents of the specified directory.
 
 - environ
+  
   Display all environment variables.
 
 - echo [text]
+  
   Display the given text.
 
 - help
+  
   Display this user manual.
 
 - pause
+  
   Pause the shell until Enter is pressed.
 
 - quit
+  
   Exit the shell.
 
 ---
@@ -73,10 +81,12 @@ Advanced Features:
   Use '<' to redirect input from a file.
   Use '>' to redirect output to a file (overwrite).
   Use '>>' to append output to a file.
+  
 
   Example:
   ls > output.txt
   sort < input.txt > sorted.txt
+  
 
 - Background Execution:
   Add '&' at the end of a command to run it in the background.
@@ -84,8 +94,10 @@ Advanced Features:
   Example:
   sleep 10 &
   
+  
 - Batch File Execution :
     MyShell can read and execute commands from a text file, line by line.
+
 
 - Dynamic Command Prompt:
   Shows the current directory path.
