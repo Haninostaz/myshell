@@ -8,7 +8,7 @@ Welcome to **MyShell** - a simple command line shell.
 
 ---
 
-👩‍💻 **Team Members** : 
+👩‍💻  **Team Members :**
 
 
 •
@@ -20,7 +20,6 @@ Hanin Ostaz
 •
 Raghad Altalaa
 
-•
 👩‍🏫 Teaching Assistant : *Eng. Amal Mahfouz*
 
 ---
@@ -29,11 +28,13 @@ Raghad Altalaa
 
 1. Compile the shell program using:
    ```gcc myshell.c -o myshell```
+   
 
-2. Run the shell by typing:
+3. Run the shell by typing:
    ```./myshell```
+   
 
-3. To run commands from a batch file, type:
+4. To run commands from a batch file, type:
    ```./myshell batchfile```
 
 ---
@@ -125,10 +126,10 @@ We believe MyShell has great potential for future development. Some ideas that c
   
 - Custom Environment Variable Support: Allowing users to set new environment variables within the shell.
 
-- Job Control: Providing commands to manage background processes (``e.g., jobs, fg, bg`)
+- Job Control: Providing commands to manage background processes (`e.g., jobs, fg, bg`)
 
 ---
 
-Thank you for using MyShell!
+Thank you for using MyShell!🙏
 
  📨 For questions or help, contact: your_email@example.com
