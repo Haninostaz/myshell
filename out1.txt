@@ -1,0 +1,7 @@
+out1.txt
+makefile
+.
+readme
+myshell
+..
+myshell.c
