@@ -13,6 +13,7 @@
 
 extern char **environ;
 
+// Parse the input line into arguments
 void print_welcome() {
     printf("*********************************************\n");
     printf("*                                           *\n");
@@ -36,6 +37,7 @@ void parse_input(char* input, char** args, int* arg_count) {
     args[*arg_count] = NULL;
 }
 
+// Change directory or display current directory
 void cmd_cd(char** args, int arg_count) {
     if (arg_count == 1) {
         char cwd[1024];
@@ -51,10 +53,12 @@ void cmd_cd(char** args, int arg_count) {
     }
 }
 
+// Clear the terminal screen
 void cmd_clr() {
     printf("\033[H\033[J");
 }
 
+// List directory contents
 void cmd_dir(char** args, int arg_count) {
     char* dir = ".";
     if (arg_count > 1) dir = args[1];
@@ -71,6 +75,7 @@ void cmd_dir(char** args, int arg_count) {
     closedir(d);
 }
 
+// Display environment variables
 void cmd_environ() {
     char** env = environ;
     while (*env) {
@@ -78,7 +83,7 @@ void cmd_environ() {
         env++;
     }
 }
-
+// Echo user input
 void cmd_echo(char** args, int arg_count) {
     for (int i=1; i<arg_count; i++) {
         printf("%s", args[i]);
@@ -87,6 +92,7 @@ void cmd_echo(char** args, int arg_count) {
     printf("\n");
 }
 
+// Display help (contents of readme file)
 void cmd_help() {
     if (fork() == 0) {
         execlp("more", "more", "readme", NULL);
@@ -97,11 +103,13 @@ void cmd_help() {
     }
 }
 
+// Pause shell until user presses Enter
 void cmd_pause() {
     printf("Shell paused. Press Enter to continue...\n");
     while (getchar() != '\n');
 }
 
+// Execute an external command with optional redirection and background execution
 void execute_external(char** args, int background, char* input_file, char* output_file, int append) {
     pid_t pid = fork();
     if (pid == 0) {
